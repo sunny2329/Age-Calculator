@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-box{
+    position: relative;
+    top: 150px;
+    left: 140px;
+    /* background-color: pink; */
+    width: 700px;
+    padding: 30px;
+}
+
+h1{
+    font-size: 4rem;
+    color: orangered;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+#color{
+    color: rgb(233, 233, 115);
+    margin-bottom: 25px;
+}
+
+.input-box{
+    background-color: rgba(128, 128, 128, 0.265);
+    padding: 30px;
+    margin: 0 0 40px 0px;
+    width: 560px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="date"]{
+    font-size: 1.5rem;
+    color: orange;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    margin-right: 10px;   
+    flex-grow: 2;
+    cursor: pointer;
+    border: none;
+}
+
+#calculate{
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #212121;
+    color: #fff;
+    cursor: pointer;
+}
+
+p{
+    color: yellow;
+    font-size: 1.6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+
+span{
+    color: #fff;
+}
+
+#calculate:hover{
+    background-color: #fff;
+    color: #212121;
+}
+
+
+
+
+
+
